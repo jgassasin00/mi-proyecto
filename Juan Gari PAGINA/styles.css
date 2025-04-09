@@ -1,0 +1,104 @@
+/* Estilo global */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #f4f4f4; 
+    color: #333; 
+}
+
+/* Encabezado */
+header {
+    background-color: #4CAF50; 
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2rem;
+}
+
+/* Menú de navegación */
+nav .menu {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+nav .menu li {
+    display: inline-block;
+    margin-right: 15px;
+}
+
+nav .menu li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+nav .menu li a:hover {
+    text-decoration: underline; 
+}
+
+/* Cuerpo principal */
+main {
+    padding: 20px;
+}
+
+main h2 {
+    color: #4CAF50; 
+}
+
+main p, main ol {
+    margin-bottom: 20px;
+}
+
+main ol {
+    margin-left: 20px;
+}
+
+.imagen-principal {
+    width: 100%;
+    max-width: 600px; 
+    display: block;
+    margin: auto; 
+}
+
+/* Pie de página */
+footer {
+    background-color: #333; 
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+footer a {
+    color: #4CAF50; 
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+/* Diseño responsivo básico */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 1.5rem; 
+    }
+
+    nav .menu li {
+        display: block; 
+        margin-bottom: 10px;
+        text-align: center;
+    }
+
+    .imagen-principal {
+        width: 100%;
+        max-width: 100%; 
+        margin-top: 20px;
+    }
+}
+
